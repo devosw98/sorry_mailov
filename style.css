@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+}
+
+#generalDiv {
+    margin-top: 100px;
+    padding: 20px;
+}
+#generalDiv p {
+    font-size: 30px;
+    font-weight: 700;
+}
+#generalDiv img {
+    border-radius: 25px;
+}
+
+#buttonDiv {
+    margin-top: auto;
+    padding: 10px;
+    width: auto;
+    height: auto;
+}
+
+.yesBtn {
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background-color: rgb(48, 165, 48);
+    border: none;
+    height: 30px;
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.noBtn {
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background-color: rgb(202, 55, 55);
+    border: none;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+}
