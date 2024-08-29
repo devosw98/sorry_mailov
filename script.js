@@ -18,8 +18,15 @@ document.addEventListener('DOMContentLoaded', (event) => {
         yesBtn.style.borderRadius = parseFloat(currentBorderRadius) * 1.1 + 'px';
     }),
 
-        yesBtn.addEventListener('click', () => {
-        Swal.fire("¡Vivan los novioz! Gracias por disculparme amorcito");
+    yesBtn.addEventListener('click', () => {
+        Swal.fire({
+            title: "¡Vivan los novioz!",
+            text: "Gracias por disculparme amorcito",
+            imageUrl: "https://i.redd.it/11zsr036iw191.jpg",
+            imageWidth: 352,
+            imageHeight: 276,
+            imageAlt: "Custom image"
+          });
     });
 
 });
